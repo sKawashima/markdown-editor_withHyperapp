@@ -6,12 +6,13 @@ const state = {
 }
 
 const actions = {
+  setInput: (input) => state => ({ input: input })
 }
 
 const view = (state, actions) => (
   <main>
     <h1>{state.input}</h1>
-    <textarea id='editor' oninput={e => console.log(document.getElementById('editor').value)} />
+    <textarea id='editor' oninput={e => actions.setInput(document.getElementById('editor').value)} />
   </main>
 )
 
