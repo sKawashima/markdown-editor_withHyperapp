@@ -10,6 +10,7 @@
 
 ## やりました
 - [一応公開](https://skawashima.github.io/markdown-editor_withHyperapp/)
+- [解説記事(qiita)](https://qiita.com/sKawashima/items/ac8fad15b714d91b41f9)
 
 ## 使いまわし元コード
 - [sKawashima/markdown-editor_180314: RGとつくるマークダウンエディタ](https://github.com/sKawashima/markdown-editor_180314)
