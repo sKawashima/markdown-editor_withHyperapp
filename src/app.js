@@ -1,6 +1,14 @@
 import { h, app } from 'hyperapp' // eslint-disable-line
 import marked from 'marked'
 import './style.sass'
+import highlight from 'highlight.js'
+import 'highlight.js/styles/atom-one-dark.css'
+
+marked.setOptions({
+  highlight: function (code, lang) {
+    return highlight.highlightAuto(code, [lang]).value
+  }
+})
 
 const state = {
   'input': '# markdown',

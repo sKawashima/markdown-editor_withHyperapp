@@ -7,11 +7,11 @@ html, body
   display: flex
   height: 100%
 
-#editor, #preview
+textarea, #preview
   flex: 1 1 0
   overflow-y: scroll
 
-#editor
+textarea
   padding: 1em
   font-size: 12px
   background-color: #eee
@@ -22,8 +22,17 @@ html, body
 #preview
   padding: 1em
 
+.hljs
+  all: unset
+
+pre
+  padding: 15px
+  background-color: #282c34
+  color: #EEE
+  margin-right: 10px
+
 @media print
-  #editor
+  textarea
     display: none
   #preview
     overflow-y: visible
