@@ -8,5 +8,8 @@
 ## やります
 - [2018 年は Hyperapp の年だ - Qiita](https://qiita.com/JorgeBucaran/items/c48446babe0627e25ee6)
 
+## やりました
+- [一応公開](https://skawashima.github.io/markdown-editor_withHyperapp/)
+
 ## 使いまわし元コード
 - [sKawashima/markdown-editor_180314: RGとつくるマークダウンエディタ](https://github.com/sKawashima/markdown-editor_180314)
