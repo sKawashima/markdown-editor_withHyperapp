@@ -1,0 +1,29 @@
+html, body
+  height: 100%
+  width: 100%
+  margin: 0
+
+#app
+  display: flex
+  height: 100%
+
+#editor, #preview
+  flex: 1 1 0
+  overflow-y: scroll
+
+#editor
+  padding: 1em
+  font-size: 12px
+  background-color: #eee
+  line-height: 1.5em
+  font-family: 'Hack', courier, monospace
+  border: 0
+
+#preview
+  padding: 1em
+
+@media print
+  #editor
+    display: none
+  #preview
+    overflow-y: visible
