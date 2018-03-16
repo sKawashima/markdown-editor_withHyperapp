@@ -1,6 +1,5 @@
 import { h, app } from 'hyperapp' // eslint-disable-line
 import marked from 'marked'
-
 import './style.sass'
 
 const state = {
@@ -20,4 +19,3 @@ const view = (state, actions) => (
 )
 
 app(state, actions, view, document.body)
-// <textarea id='editor' onclick={e => addTodo(document.querySelector('#todo-val').value)
