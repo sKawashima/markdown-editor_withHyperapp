@@ -11,7 +11,6 @@ marked.setOptions({
 })
 
 const state = {
-  'input': '# markdown',
   'output': ''
 }
 
@@ -21,7 +20,7 @@ const actions = {
 
 const view = (state, actions) => (
   <main id='app'>
-    <textarea id='editor' oninput={e => actions.setOutput(document.getElementById('editor').value)} placeholder={state.input} />
+    <textarea id='editor' oninput={e => actions.setOutput(document.getElementById('editor').value)} placeholder='# markdown' />
     <div id='preview' innerHTML={state.output}></div>
   </main>
 )
