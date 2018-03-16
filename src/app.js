@@ -11,8 +11,8 @@ const actions = {
 
 const view = (state, actions) => (
   <main>
-    <h1>{state.input}</h1>
     <textarea id='editor' oninput={e => actions.setInput(document.getElementById('editor').value)} />
+    <div innerHTML={state.input}></div>
   </main>
 )
 
