@@ -9,7 +9,7 @@
     "highlight.js": "^9.12.0",
     "hyperapp": "^1.1.2",
     "marked": "^0.3.17",
-    "node-sass": "^4.7.2"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
